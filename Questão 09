@@ -1,31 +1,31 @@
 programa {
   funcao inicio() {
-    // Declarando Variáveis.
+    // Declarando VariÃ¡veis.
     real rendaMensal, valorEmprestimo, prestacao
     inteiro numPrestacoes
     
-    //Solicitando Informações para Usuário.
+    //Solicitando InformaÃ§Ãµes para UsuÃ¡rio.
     escreva("Digite a renda mensal do solicitante: ")
     leia(rendaMensal)
     
-    escreva("Digite o valor total do empréstimo solicitado: ")
+    escreva("Digite o valor total do emprÃ©stimo solicitado: ")
     leia(valorEmprestimo)
     
-    escreva("Digite o número de prestações que o solicitante deseja pagar: ")
+    escreva("Digite o nÃºmero de prestaÃ§Ãµes que o solicitante deseja pagar: ")
     leia(numPrestacoes)
     
-    //Calculando Informações do Usuário.
+    //Calculando InformaÃ§Ãµes do UsuÃ¡rio.
     
     prestacao = valorEmprestimo / numPrestacoes
     
     se (valorEmprestimo <= 10 * rendaMensal) {
     se (prestacao <= 0.3 * rendaMensal) 
     {
-    escreva("O empréstimo pode ser concedido.")
+    escreva("O emprÃ©stimo pode ser concedido.")
     }
     senao
     {
-    escreva("O empréstimo não pode ser concedido, pois o valor da prestação excede 30% da renda mensal do solicitante.")
+    escreva("O emprÃ©stimo nÃ£o pode ser concedido, pois o valor da prestaÃ§Ã£o excede 30% da renda mensal do solicitante.")
     }
     }
     
