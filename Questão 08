@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // Declarando Vari·veis.
+    // Declarando Vari√°veis.
     inteiro cores
 
     // Tabela de Cores.
