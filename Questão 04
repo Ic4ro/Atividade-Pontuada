@@ -1,17 +1,17 @@
 programa {
   funcao inicio() {
-    // Declarando Variáveis.
+    // Declarando VariÃ¡veis.
     real morangos, macas, totalMorangos, totalMacas,  totalFrutas, totalPago
     inteiro desconto
     
-    // Solicitando Dados Para Usuário.
+    // Solicitando Dados Para UsuÃ¡rio.
     escreva("Digite a quantidade de morangos (em kg): ")
     leia(morangos)
     
-    escreva("Digite a quantidade de maças (em kg): ")
+    escreva("Digite a quantidade de maÃ§as (em kg): ")
     leia(macas)
 
-    //Calculando Dados Para Usuário.
+    //Calculando Dados Para UsuÃ¡rio.
     se (morangos <= 5) 
     {
     totalMorangos = 2.5 * morangos
@@ -37,7 +37,7 @@ programa {
     desconto = 0
     }
     
-    // Exibindo Dados Para Usuário
+    // Exibindo Dados Para UsuÃ¡rio
     escreva("\nTotal a pagar: R$ ", totalPago)
     se (desconto > 0) 
     {
