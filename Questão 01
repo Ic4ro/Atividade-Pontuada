@@ -1,10 +1,10 @@
 programa {
   funcao inicio() {
-    //Declarando Vari·veis.
+    //Declarando Vari√°veis.
     inteiro valorA, valorB, valorC, soma
 
 
-    //Solicitando Dados do usu·rio.
+    //Solicitando Dados do usu√°rio.
     escreva("Digite o Valor de A: ")
     leia(valorA)
 
@@ -15,14 +15,14 @@ programa {
     leia(valorC)
 
 
-    //Calculando valores do usu·rio.
+    //Calculando valores do usu√°rio.
     escolha(soma){
     caso 1:
     soma = valorA + valorB < valorC
-    escreva("… menor que Valor C")
+    escreva("√â menor que Valor C")
     pare
     caso contrario:
-    escreva("… maior que Valor C")
+    escreva("√â maior que Valor C")
     pare
 
     
