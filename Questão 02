@@ -5,7 +5,7 @@ programa {
     inteiro tempoDeCasada
     caracter sexo
 
-    //Solicitando dados do usu·rio.
+    //Solicitando dados do usu√°rio.
     escreva("Digite seu nome: ")
     leia(nome)
 
@@ -16,7 +16,7 @@ programa {
     leia(estadoCivil)
 
 
-    //Calculando dados do usu·rio.
+    //Calculando dados do usu√°rio.
 
     se (sexo == 'F' e estadoCivil == "CASADA"  ){   
     escreva("Digite seu tempo de casada: ")
@@ -25,7 +25,7 @@ programa {
     escreva("SOLTEIRO")   
     }
 
-    //Exibindo Dados do Usu·rio.
+    //Exibindo Dados do Usu√°rio.
     limpa()
     escreva("\n====Exibindo Dados====")
     escreva("\nNome: ", nome)
