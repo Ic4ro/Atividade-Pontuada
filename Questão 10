@@ -1,17 +1,17 @@
 programa {
   funcao inicio() {
-    // Declarando Variáveis.
+    // Declarando VariÃ¡veis.
     cadeia combustivel
     real litros, precoLitro, total, desconto
     
-    //Solicitando Dados Para Usuário
-    escreva("Digite o tipo de combustível (A-álcool, G-gasolina): ")
+    //Solicitando Dados Para UsuÃ¡rio
+    escreva("Digite o tipo de combustÃ­vel (A-Ã¡lcool, G-gasolina): ")
     leia(combustivel)
     
     escreva("Digite a quantidade de litros vendidos: ")
     leia(litros)
 
-    // Calculando Dados Para Usuário.
+    // Calculando Dados Para UsuÃ¡rio.
     se (combustivel == 'A' ou combustivel == 'a') 
     {  
     precoLitro = 3.79 
@@ -40,12 +40,12 @@ programa {
     }
     } senao
     {
-    escreva("Tipo de combustível inválido.")        
+    escreva("Tipo de combustÃ­vel invÃ¡lido.")        
     }
     }
     
     total = total - desconto
-    // Exibindo Dados Para Usuário.
+    // Exibindo Dados Para UsuÃ¡rio.
     escreva("Total a pagar: R$ ", total)
     
   }
