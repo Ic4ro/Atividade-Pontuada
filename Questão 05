@@ -3,17 +3,17 @@ programa {
     inteiro valorA, valorB, resultado
     caracter operacao
 
-    // Solicitar os valores de A e B ao usu·rio.
+    // Solicitar os valores de A e B ao usu√°rio.
     escreva("Digite o valor de A: ")
     leia(valorA)
     escreva("Digite o valor de B: ")
     leia(valorB)
 
-    // Solicitar a operaÁ„o ao usu·rio
-    escreva("Digite a operaÁ„o desejada (+, -, *, /): ")
+    // Solicitar a opera√ß√£o ao usu√°rio
+    escreva("Digite a opera√ß√£o desejada (+, -, *, /): ")
     leia(operacao)
 
-    // Realizar a operaÁ„o de acordo com o cÛdigo inserido.
+    // Realizar a opera√ß√£o de acordo com o c√≥digo inserido.
     escolha (operacao){ 
     caso  "+":
     resultado = valorA + valorB
@@ -28,18 +28,18 @@ programa {
     resultado = valorA / valorB
     pare
     caso contrario:  
-    escreva("A operaÁ„o digitada È inv·lida!")
+    escreva("A opera√ß√£o digitada √© inv√°lida!")
     }
 
       
 
-    // Exibir o resultado da operaÁ„o.
+    // Exibir o resultado da opera√ß√£o.
     limpa()
-    escreva("\n====Exibindo Dados Para Usu·rio====")
+    escreva("\n====Exibindo Dados Para Usu√°rio====")
     escreva("\nValor A: ", valorA)
     escreva("\nValor B: ", valorB)
-    escreva("\nOperaÁ„o: ", operacao)
-    escreva("\nO resultado da operaÁ„o È: ", resultado)
+    escreva("\nOpera√ß√£o: ", operacao)
+    escreva("\nO resultado da opera√ß√£o √©: ", resultado)
 
 
     
