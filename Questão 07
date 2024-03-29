@@ -1,21 +1,21 @@
 programa {
   funcao inicio() {
-    // Declarando Variáveis.
+    // Declarando VariÃ¡veis.
     cadeia produto
     real quantidade, precoUnitario, total, desconto
     inteiro descontoPercentual
     
-    // Solitando Informações do usuário.
-    escreva("Digite a descrição do produto: ")
+    // Solitando InformaÃ§Ãµes do usuÃ¡rio.
+    escreva("Digite a descriÃ§Ã£o do produto: ")
     leia(produto)
     
     escreva("Digite a quantidade adquirida: ")
     leia(quantidade)
     
-    escreva("Digite o preço unitário: ")
+    escreva("Digite o preÃ§o unitÃ¡rio: ")
     leia(precoUnitario)
 
-    // Calculando Dados do Usuário.
+    // Calculando Dados do UsuÃ¡rio.
     
     total = quantidade * precoUnitario
     
@@ -34,7 +34,7 @@ programa {
     
     desconto = total * (descontoPercentual / 100)
 
-    // Exibindo Dados para usuário.
+    // Exibindo Dados para usuÃ¡rio.
     
     escreva("\nTotal: ", total)
     escreva("\nDesconto: ", desconto)
