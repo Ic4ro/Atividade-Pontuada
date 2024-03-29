@@ -4,7 +4,7 @@ programa {
     inteiro valorA, valorB, soma, multipicacao, resultado, valorC
 
 
-    //Solicitando valores do usuário. 
+    //Solicitando valores do usuÃ¡rio. 
     escreva("Digite o valor A: ")
     leia(valorA)
 
@@ -12,7 +12,7 @@ programa {
     leia(valorB)
 
     
-    //calculando valores do usuário.
+    //calculando valores do usuÃ¡rio.
     soma = valorA + valorB 
     multipicacao = valorA * valorB
 
@@ -25,9 +25,9 @@ programa {
       resultado = valorA * valorB
     }
 
-    //Exibindo dados para usuário.
+    //Exibindo dados para usuÃ¡rio.
     limpa()
-    escreva("\n====Exibindo Valores Para o Usuário====")
+    escreva("\n====Exibindo Valores Para o UsuÃ¡rio====")
     escreva("\nValor A: ", valorA)
     escreva("\nValor B: ", valorB)
     escreva("\nResultado: ",resultado)
